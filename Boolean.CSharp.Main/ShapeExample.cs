@@ -54,7 +54,7 @@ namespace Boolean.CSharp.Main
             return (0.5 * tbase * theight);
         }
     }
-    public class Core
+    public class ShapeExample
     {
 
     }
