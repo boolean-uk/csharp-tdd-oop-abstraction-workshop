@@ -9,6 +9,7 @@ namespace Boolean.CSharp.Main
     public abstract class Shape
     {
         public abstract double area();
+       
     }
 
 
@@ -51,7 +52,7 @@ namespace Boolean.CSharp.Main
         }
         public override double area()
         {
-            return (0.5 * tbase * theight);
+            return (0.5 * (tbase * theight));
         }
     }
     public class ShapeExample
